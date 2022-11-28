@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.entryShower{
+  color: red;
+}
+
+p{
+ font-size: 14px;
+}
+
