@@ -22,10 +22,12 @@ function PasswordList() {
             backendData.map(password => {
               return(
                 <div className='entryShower'>
-                  <p>Password: {password.Titel}</p>
+                  <p>Titel: {password.Titel}</p>
                   <p>Username/Email: {password.Username}</p>
                     <div className='passwordField'>
-                      <button onClick={() => setVisible(!visible)}> {visible ? '**********' : <p>{password.Password}</p>} </button>
+                      <button 
+                      onClick={() => setVisible(!visible)}
+                      > {visible ? '**********' : <p>{password.Password}</p>} </button>
                     </div>
                 </div>
               )
